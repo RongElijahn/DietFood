@@ -1,0 +1,33 @@
+<!DOCTYPE html >
+<html>
+  <head>
+     <title>Login</title>
+     <meta charset="utf-8">
+     <!---<link rel="icon" type="image/x-icon" href="logo.jpeg"> -->
+     <link rel="stylesheet" type="text/css" href="login.css">
+     <script type="text/javaScript" src="login.js">
+     </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="titleText">Login</h1>
+      <p class="hintText">Please fill in your crefentials to login.</p>
+      <form action="login.php" method="POST">
+        <label for="username" class="labelInput">Username</label>
+        <br>
+        <input class="inputForm" type="text" id="username" name="username" placeholder="">
+        <br>
+        <label for="password" class="labelInput">Password</label>
+        <br>
+        <input class="inputForm" type="text" id="password" name="password" placeholder="">
+        <br>
+        <input class="submitForm" type="submit" name="submit" value="Login" id="loginButton"> 
+      </form>
+      <p>Don't have an account? <a href="sign_up.html" class="linkToPage">Sign up now.</a></p>
+    </div>
+
+    <!--Scirpt for event -->
+    <script type ="text/javaScript" src="pre_login.js">
+    </script>
+  </body>
+</html>

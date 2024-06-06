@@ -1,0 +1,44 @@
+<!DOCTYPE html >
+<html>
+  <head>
+     <title>Dashboard</title>
+     <meta charset="utf-8">
+     <link rel="icon" type="image/x-icon" href="logo.jpeg"> 
+     <link rel="stylesheet" type="text/css" href="dashboard.css">
+     <script type="text/javascript" src="dashboard.js">
+     </script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <div>
+          <img class="logoImage" src="logo.jpeg" width="40" alt="Logo">
+        </div>
+        <div>
+          <p class="greyT smallT">welcome to Dashboard</p>
+        </div>
+      </div>
+      <div class="headInfo">
+        <p id="currentDate" class="smallT"></p>
+      </div>
+    </header>
+    <div class="container">
+      <div class="sidebar">
+        <ul>
+            <li><a class="menu" href="" id="getChart">Chart</a></li>
+            <li><a class="menu" href="" id="getToday">Today</a></li>
+            <li><a class="menu" href="" id="getFoodList">Food List</a></li>
+        </ul>
+      </div>
+      <div class="content" id="content">
+      </div>
+    </div>
+    <footer>
+      <p class="smallT"> &copy; All rights reserved, 2024</p>
+    </footer>
+
+    <!--Scirpt for event -->
+    <script type ="text/javascript" src="pre_dashboard.js">
+    </script>
+  </body>
+</html>
