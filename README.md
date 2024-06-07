@@ -1,6 +1,8 @@
 This is simple program for website.
 
-Function: 1. Login/register
+Function: 
+
+          1. Login/register
 
           2. FoodList: a table containing food's name, food's fat, food's carbonhydrate, food's protein. 
           
